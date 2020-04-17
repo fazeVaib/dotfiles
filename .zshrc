@@ -13,6 +13,7 @@ export LD_LIBRARY_PATH=/usr/local/cuda-9.2/lib64\
 export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64"
 export CUDA_HOME=/usr/local/cuda
 
+alias lsa="ls -A"
 alias dc=cd
 alias gs="git status"
 alias epro="source activate pro"
