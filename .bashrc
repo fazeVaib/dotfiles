@@ -91,6 +91,7 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
@@ -115,13 +116,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export PATH=/usr/local/cuda-9.2/bin${PATH:+:${PATH}}
-export LD_LIBRARY_PATH=/usr/local/cuda-9.2/lib64\
-export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64"
-export CUDA_HOME=/usr/local/cuda
-                         ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
-# added by Anaconda3 installer
-# export PATH="/home/darkghost/anaconda3/bin:$PATH"  # commented out by conda initialize
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/home/darkghost/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
@@ -138,4 +132,4 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 
-source /home/darkghost/.config/broot/launcher/bash/br
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

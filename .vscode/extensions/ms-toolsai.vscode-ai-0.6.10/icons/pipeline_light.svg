@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>AML TOC</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="AML-TOC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-5" fill="#FF8C02" fill-rule="nonzero" transform="translate(10.046837, 8.046837) rotate(-45.000000) translate(-10.046837, -8.046837) " x="9.53853581" y="5.6604738" width="1.01660324" height="4.77272727"></rect>
+        <rect id="Rectangle-5" fill="#FF8C02" fill-rule="nonzero" transform="translate(5.937746, 7.937746) rotate(45.000000) translate(-5.937746, -7.937746) " x="5.42944435" y="5.70566096" width="1.01660324" height="4.46417001"></rect>
+        <rect id="Rectangle-5" fill="#FF8C02" fill-rule="nonzero" x="7.46666667" y="6.4" width="1.06666667" height="6.6"></rect>
+        <path d="M2,0.999999999 L2,6.00000002 L14,6.00000002 L14,0.999999999 L2,0.999999999 Z M1,0 L15,0 L15,7 L1,7 L1,0 Z" id="Rectangle-3" fill="#6B849C" fill-rule="nonzero"></path>
+        <path d="M2,10 L2,12 L4,12 L4,10 L2,10 Z M1,9 L5,9 L5,13 L1,13 L1,9 Z" id="Rectangle-8" fill="#6B849C" fill-rule="nonzero"></path>
+        <path d="M12,10 L12,12 L14,12 L14,10 L12,10 Z M11,9 L15,9 L15,13 L11,13 L11,9 Z" id="Rectangle-8-Copy" fill="#6B849C" fill-rule="nonzero"></path>
+        <path d="M7.00000001,13 L7.00000001,15 L9.00000002,15 L9.00000002,13 L7.00000001,13 Z M6,12 L10,12 L10,16 L6,16 L6,12 Z" id="Rectangle-8-Copy-2" fill="#6B849C" fill-rule="nonzero"></path>
+    </g>
+</svg>

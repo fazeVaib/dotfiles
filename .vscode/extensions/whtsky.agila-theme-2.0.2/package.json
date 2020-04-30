@@ -1,0 +1,73 @@
+{
+	"name": "agila-theme",
+	"displayName": "Agila Theme",
+	"description": "Agila Theme",
+	"icon": "icon.png",
+	"version": "2.0.2",
+	"publisher": "whtsky",
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"keywords": [
+		"agila",
+		"theme"
+	],
+	"homepage": "https://github.com/whtsky/Agila-Theme-VSCode/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/whtsky/Agila-Theme-VSCode.git"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Agila Classic Oceanic Next",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Agila Classic Oceanic Next.tmTheme"
+			},
+			{
+				"label": "Agila Cobalt",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Agila Cobalt.tmTheme"
+			},
+			{
+				"label": "Agila Dracula",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Agila Dracula.tmTheme"
+			},
+			{
+				"label": "Agila Light Solarized",
+				"uiTheme": "vs",
+				"path": "./themes/Agila Light Solarized.tmTheme"
+			},
+			{
+				"label": "Agila Monokai Extended",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Agila Monokai Extended.tmTheme"
+			},
+			{
+				"label": "Agila Neon Monocyanide",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Agila Neon Monocyanide.tmTheme"
+			},
+			{
+				"label": "Agila Oceanic Next",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Agila Oceanic Next.tmTheme"
+			},
+			{
+				"label": "Agila Origin Oceanic Next",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Agila Origin Oceanic Next.tmTheme"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "aec52a63-18b3-48cf-a277-12fa10e2f25a",
+		"publisherId": "499225a1-c249-42ca-8390-812299407a62",
+		"publisherDisplayName": "whtsky"
+	}
+}

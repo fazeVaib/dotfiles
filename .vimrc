@@ -76,19 +76,16 @@ nnoremap <Right> :echoe "Use l"<CR>
 nnoremap <Up>    :echoe "Use k"<CR>
 nnoremap <Down>  :echoe "Use j"<CR>
 " ...and in insert mode
-inoremap <Left>  <ESC>:echoe "Use h"<CR>
-inoremap <Right> <ESC>:echoe "Use l"<CR>
-inoremap <Up>    <ESC>:echoe "Use k"<CR>
-inoremap <Down>  <ESC>:echoe "Use j"<CR>
+" inoremap <Left>  <ESC>:echoe "Use h"<CR>
+" inoremap <Right> <ESC>:echoe "Use l"<CR>
+" inoremap <Up>    <ESC>:echoe "Use k"<CR>
+" inoremap <Down>  <ESC>:echoe "Use j"<CR>
 
 let g:airline_powerline_fonts = 1
-let g:airline_theme='bubblegum'
+let g:airline_theme='light'
 
 map <C-n> :NERDTreeToggle<CR>
 
-" For CtrlP Plugin
-set runtimepath^=~/.vim/bundle/ctrlp.vim
-
 " For pathogen Plugin
-runtime bundle/vim-pathogen/autoload/pathogen.vim
- execute pathogen#infect()
+" runtime bundle/vim-pathogen/autoload/pathogen.vim
+execute pathogen#infect()
