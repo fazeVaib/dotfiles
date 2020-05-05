@@ -81,6 +81,13 @@ nnoremap <Down>  :echoe "Use j"<CR>
 " inoremap <Up>    <ESC>:echoe "Use k"<CR>
 " inoremap <Down>  <ESC>:echoe "Use j"<CR>
 
+" Split Navigations
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+
 let g:airline_powerline_fonts = 1
 let g:airline_theme='light'
 
