@@ -93,6 +93,9 @@ let g:airline_theme='light'
 
 map <C-n> :NERDTreeToggle<CR>
 
+set tabstop=4
+set shiftwidth=4
+set expandtab
 " For pathogen Plugin
 " runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
